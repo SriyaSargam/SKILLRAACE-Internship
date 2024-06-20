@@ -1,0 +1,67 @@
+{
+  "name": "leetcode",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "devDependencies": {
+        "@commitlint/cli": "^17.6.5",
+        "@commitlint/config-conventional": "^17.6.5",
+        "@prettier/plugin-php": "^0.19.6",
+        "clang-format": "1.8.0",
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.2",
+        "prettier": "^2.8.8",
+        "prettier-plugin-rust": "^0.1.9",
+        "prettier-plugin-sql-cst": "^0.10.0"
+      }
+    },
+    "node_modules/@babel/code-frame": {
+      "version": "7.24.2",
+      "resolved": "https://registry.npmmirror.com/@babel/code-frame/-/code-frame-7.24.2.tgz",
+      "integrity": "sha512-y5+tLQyV8pg3fsiln67BVLD1P13Eg4lh5RW9mF0zUuvLrv9uIQ4MCL+CRT+FTsBlBjcIan6PGsLcBN0m3ClUyQ==",
+      "dev": true,
+      "dependencies": {
+        "@babel/highlight": "^7.24.2",
+        "picocolors": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/helper-validator-identifier": {
+      "version": "7.22.20",
+      "resolved": "https://registry.npmmirror.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz",
+      "integrity": "sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==",
+      "dev": true,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/highlight": {
+      "version": "7.24.2",
+      "resolved": "https://registry.npmmirror.com/@babel/highlight/-/highlight-7.24.2.tgz",
+      "integrity": "sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==",
+      "dev": true,
+      "dependencies": {
+        "@babel/helper-validator-identifier": "^7.22.20",
+        "chalk": "^2.4.2",
+        "js-tokens": "^4.0.0",
+        "picocolors": "^1.0.0"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/highlight/node_modules/ansi-styles": {
+      "version": "3.2.1",
+      "resolved": "https://registry.npmmirror.com/ansi-styles/-/ansi-styles-3.2.1.tgz",
+      "integrity": "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==",
+      "dev": true,
+      "dependencies": {
+        "color-convert": "^1.9.0"
+      },
+      "engines": {
+        "node": ">=4"
+      }
+    }
